@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Poppy J.", rating: 5, text: "Had Wesley Garden Maintenance do our front and back gardens. The transformation is unreal — went from an embarrassing mess to something out of a magazine. The guys were polite, hardworking, and incredibly skilled.", date: "2 years ago" },
+    { name: "Joanne Ward", rating: 5, text: "Top quality work from Wesley Garden Maintenance. They redesigned our outdoor space and it's now our favourite part of the house. The whole family spends so much more time outside now. Couldn't be happier.", date: "3 months ago" },
+    { name: "Mandy Green", rating: 5, text: "Absolutely delighted with the work Wesley Garden Maintenance did on our garden. From the initial consultation to the finished result, everything was handled professionally. The team were punctual, tidy, and the quality of workmanship was outstandi...", date: "5 months ago" },
+    { name: "Diane Wright", rating: 5, text: "Would give Wesley Garden Maintenance 10 stars if I could. They transformed our tired-looking garden into a beautiful, functional space. The team were a pleasure to deal with and the price was very competitive for Tunbridge Wells.", date: "3 months ago" },
+    { name: "Elaine Green", rating: 5, text: "We had Wesley Garden Maintenance come out to completely transform our back garden and we couldn't be happier. They listened to exactly what we wanted and delivered beyond our expectations. The attention to detail was incredible — every edge, every...", date: "4 months ago" },
+    { name: "Tony King", rating: 5, text: "We found Wesley Garden Maintenance online and after reading about their work, decided to give them a call. So glad we did — the garden has been completely transformed. Professional from start to finish.", date: "4 months ago" },
+    { name: "Scott H.", rating: 5, text: "Used Wesley Garden Maintenance for landscaping work at our property in Tunbridge Wells. The team were friendly, professional and clearly know their trade inside out. The finished result exceeded what we'd imagined. Will definitely be using them ag...", date: "a year ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
